@@ -44,7 +44,7 @@
  </root>
  ```
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
- `vim sklls.xml`
+ `vim skills.xml`
  ```xml
  <root>
   <terminal>Git Linux Terminal<terminal>
