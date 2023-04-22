@@ -1,0 +1,13 @@
+<root>
+ <terminal>Git Linux Terminal<terminal>
+ <theory>Testing Theory</theory>
+ <server>Client server</server>
+ <sql>SQL</sql>
+ <api>Postman</api>
+ <traf>Charles Fiddler Sniffing<traf>
+ <web>Web Services</web>
+ <DevTools>DevTools</DevTools>
+ <mobile>Mobile Testing</mobile>
+ <webTesting>Web Testing</webTesting>
+ <load>Load testing</load>
+</root>
