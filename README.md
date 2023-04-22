@@ -35,18 +35,18 @@
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.  
  vim preferences.xml
  ```xml
- <info>
+ <root>
    <favorite_movie>Avatar</favorite_movie>
    <favorite_series>The Mandalorian</favorite_series>
    <favorite_food>Sangepsal</favorite_food>
    <favorite_season>summer</favorite_season>
    <country_to_travel>Singapore</country_to_travel>
- </info>
+ </root>
  ```
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
  `vim sklls.xml`
  ```xml
- <skills>
+ <root>
   <terminal>Git Linux Terminal<terminal>
   <theory>Testing Theory</theory>
   <server>Client server</server>
@@ -58,19 +58,32 @@
   <mobile>Mobile Testing</mobile>
   <webTesting>Web Testing</webTesting>
   <load>Load testing</load>
- </skills>
+ </root>
  ```
  32. Сделать коммит в одну строку.  
- ``
+ `git commit -am "commit XML"`
  33. Отправить сразу 2 файла на внешний репозиторий.  
- ``
+ `git push`
  34. На веб интерфейсе создать файл bug_report.xml.  
- ``
+ В репозитории нажать  `Add file` далее `Create new file` в поле "Name your file... ввести `bug_report.xml`
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
- ``
+ Нажать кнопку `[Commit new file]`
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
- ``
+ ```xml
+<root>
+ <ID>HW-2x</ID>
+ <Title>What?Where?When?</Title>
+ <Severity>Medium</Severity>
+ <Priority>High</Priority>
+ <Precondition>Preparation steps</Precondition>
+ <Environment>Devices</Environment>
+ <STR>Steps to restore</STR>
+ <ER>Expected result</ER>
+ <AR>Actual Result</AR>
+ <Attachment>link</Attachment>
+ </root>
+```
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
- ``
+ Нажать кнопку `[Commit changes]`
  38. Синхронизировать внешний и локальный репозиторий XML.  
-``
+`git pull`
