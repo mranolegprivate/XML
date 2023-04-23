@@ -13,7 +13,7 @@
  24. Добавить файл под гит.  
  `git add .`
  25. Закоммитить файл.  
- `git commit -m "first commit XML"`
+ `git commit -m 'first commit XML'`
  26. Отправить файл на внешний GitHub репозиторий.  
  `git push`
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.  
@@ -28,7 +28,7 @@
  ```
  28. Отправить изменения на внешний репозиторий.  
  `git add .`
- `git commit -m "secont commit XML"`
+ `git commit -m 'secont commit XML'`
  `git push`
  29. Создать файл preferences.xml  
  `touch preferences.xml`
@@ -61,11 +61,11 @@
  </root>
  ```
  32. Сделать коммит в одну строку.  
- `git commit -am "commit XML"`
+ `git commit -am 'commit XML'`
  33. Отправить сразу 2 файла на внешний репозиторий.  
  `git push`
  34. На веб интерфейсе создать файл bug_report.xml.  
- В репозитории нажать  `Add file` далее `Create new file` в поле "Name your file... ввести `bug_report.xml`
+ В репозитории нажать  `Add file` далее `Create new file` в поле "Name your file..." ввести `bug_report.xml`
  35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.  
  Нажать кнопку `[Commit new file]`
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.  
