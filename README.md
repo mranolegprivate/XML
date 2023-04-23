@@ -43,7 +43,7 @@
    <country_to_travel>Singapore</country_to_travel>
  </root>
  ```
- 31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
+ 31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML  
  `vim skills.xml`
  ```xml
  <root>
