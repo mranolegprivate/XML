@@ -77,7 +77,7 @@
  <Priority>High</Priority>
  <Precondition>Preparation steps</Precondition>
  <Environment>Devices</Environment>
- <STR>Steps to restore</STR>
+ <STR>Steps to reproduce</STR>
  <ER>Expected result</ER>
  <AR>Actual Result</AR>
  <Attachment>link</Attachment>
